@@ -1,5 +1,6 @@
 /////////////////////
-//
+//Oleh Makukh
+//CSE02 HW #1
 //welcome Class Java Program
 //
 
