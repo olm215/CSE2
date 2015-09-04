@@ -11,18 +11,6 @@ public class Arithmetic{
 // add main method
 public static void main(String[] args){
     
-//declaration of variables to use in computation of totals
-    double totalCostSocks$;                  //total cost of socks
-    double taxOnSocks$;                      //total tax of socks
-    double totalCostGlass$;                  //total cost of glass
-    double taxOnGlass$;                      //total tax of glass
-    double totalCostEnvBoxes$;               //total cost of Envelope Boxes
-    double taxOnEnvBoxes$;                   //total tax of Envelope Boxes  
-    double totalCostAll$;                    //total cost of full purchase
-    double totalTax$;                        //total sales tax of full purchase
-    double totalCostWithTax$;                //total cost of full purchase including taxes    
-    
-    
     //Number of pairs of socks
     int nSocks=3;
     //Cost per pair of socks
@@ -38,6 +26,7 @@ public static void main(String[] args){
     int nEnvelopes=1;
     //cost per box of envelopes
     double envelopeCost$=3.25;
+    //tax on purchase
     double taxPercent=0.06;
     
     
@@ -66,7 +55,7 @@ public static void main(String[] args){
     System.out.println("\n The shopping list includes:\n");
     System.out.println("  " + nSocks      + " pairs of socks priced at $" + sockCost$     + " each, for the total of $" + totalCostSocks$     + ".");
     System.out.println("  " + nGlasses    + " glasses priced at $" + glassCost$    + " each, for the total of $" + totalCostGlass$   + ".");
-    System.out.println("  " + nEnvelopes  + " envelopes priced at $" + envelopeCost$ + " each, for the total of $" + totalCostEnvBoxes$  + ". \n");
+    System.out.println("  " + nEnvelopes  + " envelope(s) priced at $" + envelopeCost$ + " each, for the total of $" + totalCostEnvBoxes$  + ". \n");
     System.out.println(" Total cost before taxes: $"  + totalCostAll$   + ".");
     System.out.println(" Total taxes:              $"  + totalTax$ + ".");
     System.out.println(" Total cost after  taxes: $"  + totalCostWithTax$    + ". \n");
