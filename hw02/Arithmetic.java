@@ -7,6 +7,10 @@
 // define a class
 public class Arithmetic{
     
+    
+// add main method
+public static void main(String[] args){
+    
 //declaration of variables to use in computation of totals
     double totalCostSocks$;                  //total cost of socks
     double taxOnSocks$;                      //total tax of socks
@@ -16,10 +20,9 @@ public class Arithmetic{
     double taxOnEnvBoxes$;                   //total tax of Envelope Boxes  
     double totalCostAll$;                    //total cost of full purchase
     double totalTax$;                        //total sales tax of full purchase
-    double totalCostWithTax$;                //total cost of full purchase including taxes
+    double totalCostWithTax$;                //total cost of full purchase including taxes    
     
-// add main method
-public static void main(String[] args){
+    
     //Number of pairs of socks
     int nSocks=3;
     //Cost per pair of socks
