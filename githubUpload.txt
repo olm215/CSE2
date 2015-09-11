@@ -1,0 +1,13 @@
+cd ~/workspace
+
+git add *
+
+git commit -m ‘updated HelloWorld’
+
+git push
+
+
+TO COMPILE:
+cd to folder
+javac name.java
+java name //to run
