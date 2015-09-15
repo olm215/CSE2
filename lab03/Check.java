@@ -41,7 +41,7 @@ public class Check {
         //  where the % (mod) operator returns the remainder
         //  after the division:   583%100 -> 83, 27%5 -> 2 
         dimes=(int)(costPerPerson * 10) % 10;
-        pennies=(int)(costPerPerson * 100) % 10;
+        pennies=(int)(costPerPerson / 100);
         System.out.println("Each person in the group owes $" + dollars + "." + dimes + pennies);
                 
         
