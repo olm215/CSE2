@@ -302,7 +302,7 @@ public class PokerHandCheck{
     ||checkForThree8||checkForThree9||checkForThree10){
         System.out.println("You have three of a kind!");     //if true, print this statement out 
     }     
-    //check for presence of three cards of same value
+
     //if statement to check whether there is a presence of two pairs in a hand of 5 cards, all combinations of pairs are checked
     else if(checkForPair1&&checkForPair2||checkForPair1&&checkForPair3||checkForPair1&&checkForPair4||checkForPair1&&checkForPair5
     ||checkForPair1&&checkForPair6||checkForPair1&&checkForPair7||checkForPair1&&checkForPair8||checkForPair1&&checkForPair9
@@ -316,10 +316,9 @@ public class PokerHandCheck{
     ||checkForPair6&&checkForPair8||checkForPair6&&checkForPair9||checkForPair6&&checkForPair10||checkForPair7&&checkForPair8
     ||checkForPair7&&checkForPair9||checkForPair7&&checkForPair10||checkForPair8&&checkForPair9||checkForPair8&&checkForPair10
     ||checkForPair8&&checkForPair10){
-         System.out.println("You have two pairs!");        //if only one pair of cards present, print this statement out        
+         System.out.println("You have two pairs!");        //if two pairs of cards present, print this statement out        
     }
-    
-    //check for a presence of single pair, only runs if no double pair was found above
+    //check if only one pair of cards is present
     else if(checkForPair1||checkForPair2||checkForPair3||checkForPair4||checkForPair5||checkForPair6||checkForPair7||checkForPair8||checkForPair9||checkForPair10){
         System.out.println("You have a pair!");        //if only one pair of cards present, print this statement out 
     }
