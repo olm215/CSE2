@@ -14,8 +14,8 @@
 public class CardGenerator{
  //main method required for every Java program
     public static void main(String[] args){
-    int card = (int)(Math.random()*13)+1;  // generate random card numbered 1 to 14
-    int cardType = (int)(Math.random()*3)+1; //generate number from 1 to 4
+    int card = (int)(Math.random()*14)+1;  // generate random card numbered 1 to 14
+    int cardType = (int)(Math.random()*4)+1; //generate number from 1 to 4
     String finalCard = "";         //varaible that defines cards above 10(Jack,Queen, King, Ace)
     switch(card){                 //sets the card value for cards above 10
         case 11:                  
