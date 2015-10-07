@@ -64,7 +64,7 @@ public class CheckDigit{
                 mult--;
             }
             int checkSum = sum%11;
-            
+            int checkNum = (checkISBN.charAt(9)-'0');
             if (checkSum == checkChar){
                 System.out.print("This is a valid ISBN.");
             }
