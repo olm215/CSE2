@@ -65,23 +65,12 @@ public class CheckDigit{
             }
             int checkSum = sum%11;
             int checkNum = (checkISBN.charAt(9)-'0');
-            if (checkSum == checkChar){
+            if (checkSum == checkNum){
                 System.out.print("This is a valid ISBN.");
             }
             else{
-                                        System.out.print("GOT OUT  " + sum);
+                System.out.print("This is NOT a valid ISBN. Check digit should be X." + sum);
 
             }
-            
-
-        
-        
-                        System.out.print("GOT OUT  " + sum);
-
-
-        
-        
-        
-        
     }
 }
